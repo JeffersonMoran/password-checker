@@ -54,11 +54,11 @@ $ npm run test:cov
 ## Testando a aplicaçao
 
 Para testar a aplicaçao siga esses passos:
-  1 - (GET) "http://localhost:3000/user/check-password"
-  2 - No header usar authenticaçao Basic, por exemplo enviar um username test:password
-  3 - Caso nao seja enviado o token de authenticaçao, a aplicaçao retornara 401 e a mensagem "Missing Basic Authentication Token"
-  4 - Caso seja enviado o token mas seja invalido o password, o retorno sera 200 com um corpo { "valid": false }
-  5 - Caso seja enviado o token mas seja valido o password, o retorno sera 200 com um corpo { "valid": true }
+1 - (GET) "http://localhost:3000/user/check-password"
+2 - No header usar authenticaçao Basic, por exemplo enviar um username test:password
+3 - Caso nao seja enviado o token de authenticaçao, a aplicaçao retornara 401 e a mensagem "Missing Basic Authentication Token"
+4 - Caso seja enviado o token mas seja invalido o password, o retorno sera 200 com um corpo { "valid": false }
+5 - Caso seja enviado o token mas seja valido o password, o retorno sera 200 com um corpo { "valid": true }
 
 ## Support
 
